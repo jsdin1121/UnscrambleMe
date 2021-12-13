@@ -57,7 +57,7 @@ public class UnscrambleMe {
                         System.out.printf("%s%s\n\n", "Sorry, you're out of tries. The answer was: ", line);
                     }
                     else if(count==3){
-                        System.out.println("Hint: the word starts with the letter: " + line.charAt(0)); //char index 0
+                        System.out.println("Hint: the word starts with the letter: " + line.charAt(0));
                     }
 
             }
